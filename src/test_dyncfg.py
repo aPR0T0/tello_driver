@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/home/proto/mambaforge/envs/ros_env/bin/python3
 
 import rospy
 from dynamic_reconfigure.server import Server

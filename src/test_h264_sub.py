@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/home/proto/mambaforge/envs/ros_env/bin/python3
 
 import rospy
 from sensor_msgs.msg import CompressedImage
