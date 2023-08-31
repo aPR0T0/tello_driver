@@ -7,9 +7,10 @@ project(tello_driver)
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
   camera_info_manager_py
+  camera_info_manager
   dynamic_reconfigure
   geometry_msgs
-  codec_image_transport
+  h264_image_transport
   image_transport
   message_generation
   nav_msgs
@@ -113,7 +114,8 @@ catkin_package(
                  camera_info_manager_py
                  dynamic_reconfigure 
                  geometry_msgs 
-                 codec_image_transport
+                 camera_info_manager
+                 h264_image_transport
                  image_transport 
                  message_runtime 
                  nav_msgs 
